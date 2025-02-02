@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "../componets/Header";
 import LeftNavbar from "../componets/layout-component/LeftNavbar";
 import RightNavbar from "../componets/layout-component/RightNavbar";
-import LetestNews from "../componets/LetestNews";
+import LatestNews from "../componets/LatestNews";
 import Navbar from "../componets/Navbar";
 
 
@@ -12,7 +12,7 @@ const HomeLayout = () => {
             <header>
                 <Header></Header>
                 <section className="container mx-auto">
-                    <LetestNews></LetestNews>
+                    <LatestNews></LatestNews>
                 </section>
             </header>
             <nav className="container mx-auto">

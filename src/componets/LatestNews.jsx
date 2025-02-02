@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
-const LetestNews = () => {
+const LatestNews = () => {
     return (
         <div className="bg-gray-300 flex gap-3 items-center p-2">
             <p className="bg-[#D72050] px-3 py-1 text-xl font-medium text-white rounded">Latest</p>
@@ -13,4 +13,4 @@ const LetestNews = () => {
     );
 };
 
-export default LetestNews;
+export default LatestNews;
